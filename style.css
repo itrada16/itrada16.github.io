@@ -4,17 +4,39 @@ body {
     margin: auto;
     padding: 30px;
     line-height: 1.8;
-}
 
+    color: white;
+
+    background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 h1 {
-    color: #003366;
+    color: #66ccff;
+    text-align: center;
 }
 
 h2 {
-    color: #00509e;
+    color: #99ddff;
+}
+
+h3 {
+    color: #ffffff;
 }
 
 img {
     border-radius: 50%;
     width: 200px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 3px solid #66ccff;
+}
+
+a {
+    color: #66ccff;
+}
+
+a:hover {
+    color: white;
 }
